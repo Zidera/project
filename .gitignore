@@ -1,3 +1,20 @@
 **/*.log
 .DS_Store
 .ipynb_checkpoints
+# Ignore Conda environment files (except environment.yaml)
+environment.lock.yaml
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Ignore Conda package build directories
+conda-bld/
+
+
